@@ -2,8 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
+import '@/style/index.css'
 
 import router from '@/router'
+
 // 控制台提示信息 开发环境来提示：详细一些
 Vue.config.productionTip = false
 
